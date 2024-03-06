@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    width: 100%;
+    background-color: #d9d3d1;
+    color: #242321;
+    margin: auto;
+  }
+
+#Homepage{
+    display: flex;
+    width: 100%;
+    background-color: #c3bdb9;
+}
+#Homepage h1 {
+    margin: 0 20px; /* Eliminé el margen superior e inferior del h1 para que se vea mejor */
+}
+
+#Homepage ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos de la lista a la derecha */
+    width: 70%;
+}
+
+#Homepage ul li {
+    margin-right: 20px; /* Añadí un margen entre los elementos de la lista para separarlos */
+}
+
+#Homepage a {
+    text-decoration: none;
+    color: #242321;
+}
+
+#Homepage a:hover {
+    color: #46433e;
+}
+
+#Homepage .icon img {
+    width: 20px; /* Ajusta el tamaño de la imagen del carrito según tus necesidades */
+}
+
+.ContainerImages {
+    width: 100%;
+    margin: 10px auto; /* auto en los lados izquierdo y derecho */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ContainerImages img {
+    width: 35%; /* Para hacer que la imagen ocupe todo el espacio horizontal del contenedor */
+    display: block; /* Elimina el espacio extra que podría aparecer debajo de la imagen */
+    justify-content: center;
+    align-items: center;
+}
+
+.TitleFirst{
+    color: rgba(164, 18, 18, 0.525);
+    width: 100%;
+}
+.TitleFirst img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+.SecondContainer {
+    background-color: #f1efee;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.SecondImage img {
+    width: 30%;
+}
+
+.SecondContainer p {
+    margin: 0;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.ThirdContainer {
+   background-color: rgba(255, 230, 217, 0.429);
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0;
+}
+.ThirdContainer h1{
+    color: rgba(164, 18, 18, 0.525);
+}
+.ThirdContainer h1 img{
+    width: 20px;
+    margin: 10px;
+}
+.ThirdContainer img {
+    width: 30%;
+    margin: 10px;
+}
+
+.ThirdContainer p {
+    margin: 0;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+}
